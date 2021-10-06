@@ -9,6 +9,7 @@ namespace Streamish.Repositories
         void Delete(int id);
         List<Video> GetAll();
         List<Video> GetAllWithComments();
+        Video GetVideoByIdWithComments(int id);
         Video GetById(int id);
         void Update(Video video);
     }
