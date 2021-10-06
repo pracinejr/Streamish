@@ -35,6 +35,7 @@ namespace Streamish
             });
 
             services.AddTransient<IVideoRepository, VideoRepository>();
+            services.AddTransient<IUserProfileRepository, UserProfileRepository>();
 
         }
 
